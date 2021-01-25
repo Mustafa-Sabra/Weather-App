@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(#767676, #5ccab5);
+}
+.App {
+  padding: 50px 20px;
+  width: 30%;
+  margin: 8% auto;
+  background-color: #2f685d;
+  text-align: center;
+}
+form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 25px;
+  border: 0;
+  padding: 0 10px;
+}
+form button {
+  display: block;
+  width: 35%;
+  text-align: center;
+  height: 45px;
+  margin: 0 auto;
+  outline: none;
+  color: #fff;
+  background-color: #449687;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.showInfo {
+  margin-top: 50px;
+}
+.showInfo p {
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(194, 193, 193);
+}
+.showInfo p:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
